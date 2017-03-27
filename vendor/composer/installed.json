@@ -1,0 +1,66 @@
+[
+    {
+        "name": "corviz/framework",
+        "version": "dev-feature/database_access",
+        "version_normalized": "dev-feature/database_access",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Corviz/framework.git",
+            "reference": "41c2033f93be0221b3257e0c9cd4521c3529f884"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Corviz/framework/zipball/41c2033f93be0221b3257e0c9cd4521c3529f884",
+            "reference": "41c2033f93be0221b3257e0c9cd4521c3529f884",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=5.4"
+        },
+        "time": "2017-03-27 12:27:18",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Corviz\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Low weight php framework"
+    },
+    {
+        "name": "corviz/pdo-connector",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Corviz/pdo-connector.git",
+            "reference": "3f7f4b0d0cc75a71b84c3fd7a1c7f724c2c97d8e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Corviz/pdo-connector/zipball/3f7f4b0d0cc75a71b84c3fd7a1c7f724c2c97d8e",
+            "reference": "3f7f4b0d0cc75a71b84c3fd7a1c7f724c2c97d8e",
+            "shasum": ""
+        },
+        "require": {
+            "corviz/framework": "dev-feature/database_access"
+        },
+        "time": "2017-03-27 22:57:36",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Corviz\\Connector\\PDO\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "A database connector based on PDO"
+    }
+]

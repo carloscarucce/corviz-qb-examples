@@ -1,0 +1,6 @@
+{
+	"minimum-stability": "dev",
+	"require": {
+		"corviz/pdo-connector": "dev-master"
+	}
+}
